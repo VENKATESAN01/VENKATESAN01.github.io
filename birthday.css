@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    background-image:url(download\(2\).jpg) ;
+    background-size: cover;
+    background-position: right;
+    margin: 0 auto;
+}
+
+a{  position: relative;
+    top:50%;
+    margin-left: 50px;
+    text-decoration: none;
+    font-weight: 900;
+    font-size:20px;
+    animation: circle 2s infinite;
+    transition: 1s linear;
+    
+}
+@keyframes circle{
+    0%{color:red;}
+    14%{color: white;}
+    28%{color: rgb(0, 255, 115);}
+    42%{color: cyan;} 
+    57%{color: blue;}
+    71%{color: indigo;}
+    89%{color: #f72585;} 
+    100%{color: #ff03fd ;}
+    0%{font-size:20px;}
+    25%{font-size:22.5px;}
+    50%{font-size:25px;}
+    75%{font-size:27.5px;} 
+    100%{font-size:30px;}
+}
