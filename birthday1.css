@@ -1,4 +1,6 @@
-body { margin:20px; background:#70e000; text-align:center; }
+body { margin:20px; text-align:center;
+animation: circl 2s infinite;
+transition:1s linear}
 
 .balloon {
   display:inline-block;
@@ -71,3 +73,7 @@ section{
     71%{color: indigo;}
     89%{color: #f72585;} 
     100%{color: #ff03fd ;}}
+@keyframes circl{
+    0%{color:#70e000;}
+    50%{color: #e76f51;} 
+    100%{color: #2a9d8f ;}}
